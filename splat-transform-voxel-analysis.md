@@ -327,7 +327,7 @@ const solid = bit < 32
 
 ### 4.1 五阶段 Pipeline 总览
 
-`mermaid
+```mermaid
 flowchart TD
     A["input.ply 高斯点云"] --> B
 
@@ -370,7 +370,7 @@ flowchart TD
         P -->|"-K 启用"| T["buildCollisionMesh Marching Cubes 或 voxelFaces"]
         T --> U["写入 .collision.glb glTF 2.0 Binary"]
     end
-`
+```
 
 ### 4.2 完整命令行示例
 
